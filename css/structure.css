@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+/* HEADER */
+header {
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    box-shadow: 0 0px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+#search-forms {
+    border: 1px solid black;
+}
+
+#search-forms-2 {
+    border: 1px solid black;
+}
+
+.logo-header {
+    width: 350px;
+    height: 150px;
+}
+
+.bi-list {
+    font-size: 40px;
+}
+
+
+/* TEXT STRUCTURE */
+.title-text{
+    font-size: 40px;
+}
+
+.locations-text{
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+
+/* PICTURES STRUCTURE */
+.picture-sheds,
+.picture-production,
+.picture-office,
+.picture-parking,
+.picture-cistern{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+/* ICONS */
+.bi-arrow-left-circle{
+    font-size: 40px;
+}
+
+.bi-arrow-right-circle{
+    font-size: 40px;
+}
+
+
+/* FOOTER */
+.bi-whatsapp,
+.bi-instagram,
+.bi-facebook,
+.bi-youtube {
+    font-size: 25px;
+}
+
+.bi-geo-alt-fill{
+    font-size: 25px;
+}
+
+.bi-envelope-fill{
+    font-size: 20px;
+}
+
+.bi-telephone-fill{
+    font-size: 20px;
+}
+
+.text-adress{
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.text-contact{
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.text-follow{
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.logo-footer {
+    width: 250px;
+    height: 100px;
+}
+
+footer {
+    margin-top: auto;
+    box-shadow: 0 0px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+

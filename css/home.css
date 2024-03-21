@@ -1,0 +1,170 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+/* HEADER */
+header {
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#search-forms {
+    border: 1px solid black;
+}
+
+#search-forms-2 {
+    border: 1px solid black;
+}
+
+.logo-header {
+    width: 350px;
+    height: 150px;
+}
+
+.bi-list {
+    font-size: 40px;
+}
+
+
+/* HOME */
+.picture-home {
+    filter: brightness(40%);
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-bg {
+    position: absolute;
+    top: 80%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+}
+
+.text-bg h1 {
+    letter-spacing: 20px;
+    font-size: 80px;
+    margin: 0;
+}
+
+
+/* MAP */
+
+.title-map{
+    font-size: 40px;
+}
+
+
+
+/* HISTORY */
+
+.title-history{
+    font-size: 40px;
+}
+
+.text-history{
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.bi-info-circle{
+    font-size: 30px;
+}
+
+
+/* MARKET */
+
+.text-market{
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.bi-shop-window {
+    font-size: 60px;
+}
+
+.bi-circle {
+    position: absolute;
+    top: auto;
+    left: auto;
+    transform: translate(-21%, -18.5%);
+    font-size: 100px;
+}
+
+
+
+/* DIVISIONS */
+.lc-info,
+.ec-info,
+.sp-info {
+    border-radius: 10px;
+    box-shadow: 0 0px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+/* PICTURES */
+.picture-lc,
+.picture-ec,
+.picture-sp1,
+.picture-sp2 {
+    width: 450px;
+    height: 250px;
+}
+
+.picture-market {
+    border-radius: 20px;
+}
+
+
+/* FOOTER */
+
+.bi-whatsapp,
+.bi-instagram,
+.bi-facebook,
+.bi-youtube {
+    font-size: 25px;
+}
+
+.bi-geo-alt-fill{
+    font-size: 25px;
+}
+
+.bi-envelope-fill{
+    font-size: 20px;
+}
+
+.bi-telephone-fill{
+    font-size: 20px;
+}
+
+.text-adress{
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.text-contact{
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.text-follow{
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.logo-footer {
+    width: 250px;
+    height: 100px;
+}
+
+footer {
+    margin-top: auto;
+    box-shadow: 0 0px 20px 5px rgba(0, 0, 0, 0.5);
+}
