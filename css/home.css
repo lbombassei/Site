@@ -114,9 +114,18 @@ header {
 .picture-ec,
 .picture-sp1,
 .picture-sp2 {
-    width: 450px;
-    height: 250px;
+    width: 80px;
+    height: 80px;
 }
+
+.card-title{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
 
 .picture-market {
     border-radius: 20px;
@@ -167,4 +176,35 @@ header {
 footer {
     margin-top: auto;
     box-shadow: 0 0px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.picture-map{
+    width: 100px !important;
+    height: 100px !important;
+}
+
+@media (min-width: 768px){
+    .picture-lc,
+    .picture-ec,
+    .picture-sp1,
+    .picture-sp2 {
+        width: 450px;
+        height: 250px;
+    }
+
+    .card-title{
+        color: black;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .picture-map{
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .search-form-input{
+        width: 180px !important;
+    }
+    
 }
